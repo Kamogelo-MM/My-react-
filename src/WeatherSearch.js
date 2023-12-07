@@ -1,5 +1,6 @@
 import { useState } from "react";
-import React, { useState } from "react";
+import React from "react";
+import App from "./App";
 
 import axios from "axios";
 
@@ -58,10 +59,11 @@ export default function WeatherSearch() {
   }
 
   function githublink() {
-    return (
+    let link = (
       <a href="https://github.com/Kamogelo-MM/My-react-.git">
         Open-source<p>By:Kamogelo</p>
       </a>
     );
+    return link;
   }
 }
